@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- el Head o encabezado nos permite preconfigurar y configurar las propiedades y metadata asociada a nuestra pagina web -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <h1>...</h1> (tamaños de H de 1 a 6)Etiqueta de titulo o encabezado de texto -->
+    <h1>Hola soy un titulo</h1><br>
+    <h3>Hola soy un subtitulo</h3>
+    <!-- Enlace de hipervinculo -->
+    <a href="https://www.youtube.com">Ir a Youtube</a><br>
+    <!-- Imagen con ruta , mensaje de carga , ancho y largo  
+        Etiqueta inicial img
+        src para definir la ruta de donde se encuentra la imagen
+        alt mensaje de carga o mensaje en caso de que la imagen este corrupta o falle
+        width par definir ancho de la imagen
+        height para definir el alto de la imagen
+    
+    -->
+    <img src="img/test.gif" alt="aun no cargo" width="150px" height="120px"><br>
+    <a href="index2.html">Ir a segunda pagina</a>
+    <!--Lista sin orden <UL>-->
+    <ul>
+        <h4>Frutas</h4>
+        <li>Manzana</li>
+        <li>Platano</li>
+        <li>Frutilla</li>
+    </ul>
+    <!--Lista con orden  <OL>-->
+    <ol>
+        <h4>Verduras</h4>
+        <li>Lechuga</li>
+        <li>Cebolla</li>
+        <li>Zanahoria</li>
+    </ol>
+    <!-- Tabla 1 
+    table para generar la tabla
+    tr para generar la fila 
+    td para generar el item de la fila
+    
+    -->
+    <table border="1">
+        <tr>
+            <td>Campo 1</td>
+            <td>Campo 2</td>
+            <td>Campo 3</td>
+        </tr>        
+        <tr>
+            <td>Campo 1</td>
+            <td>Campo 3</td>
+            <td>Campo 4</td>
+        </tr>       
+        <tr>
+            <td>Campo 1</td>
+            <td>Campo 3</td>
+            <td>Campo 4</td>
+        </tr>
+    </table><hr>
+    <!-- Tabla 2 
+    similar a la tabla anterior pero con encabezado
+    thead para segmento de encabezado de tabla
+    tr para la fila 
+    th para elemento de encabezado
+
+    tbody para cuerpo de tabla
+    tr para fila
+    td para item de la fila 
+    -->
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Cantidad</th>
+                <th>Precio</th>
+                <th>eliminar</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Manzana</td>
+                <td>5</td>
+                <td>3000</td>
+                <td><button type="button">Eliminar</button></td>
+            </tr>
+            <tr>
+                <td>Manzana</td>
+                <td>5</td>
+                <td>3000</td>
+            </tr>
+            <tr>
+                <td>Manzana</td>
+                <td>5</td>
+                <td>3000</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
